@@ -1,6 +1,5 @@
-import { EXAMPLE_ACTION } from './types'
+import { INCREMENT_COUNT } from './types'
 
-export const exampleAction = () => ({
-  type: EXAMPLE_ACTION,
-  payload: 'Hello from exampleAction!'
+export const incrementCount = () => ({
+  type: INCREMENT_COUNT,
 })

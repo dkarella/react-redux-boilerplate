@@ -1,10 +1,11 @@
 import React from 'react'
-import { Router, Route, browserHistory } from 'react-router'
-import Home from './components/ui/home'
+import { Router, Route, hashHistory } from 'react-router'
+import Home from './components/containers/home'
 
-const Routes = props =>
-  <Router history={browserHistory}>
+const Routes = () => (
+  <Router history={hashHistory}>
     <Route path="/" component={Home} />
   </Router>
+)
 
 export default Routes
