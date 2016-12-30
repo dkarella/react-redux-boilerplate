@@ -1,0 +1,16 @@
+$primary: indigo;
+$secondary: red;
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: verdana;
+}
+
+.title {
+  color: $primary;
+}
+
+.subtitle {
+  color: $secondary;
+}
